@@ -2,14 +2,13 @@ body{
 	margin: 1opx;
 }
 .navbar{
+
 	position:fixed;
- 	 width:100%;
+ 	 width:100%; 
  	   z-index:10;
-        /* height: 100px; */
-        margin-top: 10px;
+      
 	background: linear-gradient(to bottom, #0099ff 0%, #ccffcc 150%);
-	/*position: fixed;*/
-	/*width: 100%;*/
+
 }
 .navbar-header img{
     margin-left: -15px;
@@ -123,7 +122,7 @@ body{
 	/* margin-left: 100px; */
 }
 .hr1{
-    width: 900px;
+    /* width: 900px; */
     margin-top: 50px;
     color: black;
     height: 5px;
@@ -141,10 +140,7 @@ footer h1{
   font-family: italic;
   color:#3bff00;
 }
-footer li:first-child{
-  display: inline;
-  margin-left: 1300px;
-}
-footer li a{
-  color: yellow;
+
+.foot p a{
+  color: yellow !important;
 }
